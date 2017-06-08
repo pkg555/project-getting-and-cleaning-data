@@ -1,3 +1,5 @@
+library(data.table)
+
 #download and unzip data
 setwd("~/Desktop/Coursera")
 if(!file.exists("./wk4data")){dir.create("./wk4data")}
